@@ -1,5 +1,5 @@
 raio = gets.to_f
 
-area = Math::PI * Math.sqrt(raio)
+area = (Math::PI) * (raio**2)
 
-puts "Área = #{area}"
+puts "A=%.4f" % area
